@@ -1,7 +1,43 @@
 # 2c.SIMULATING ARP /RARP PROTOCOLS
+
+## Date: 16/03/2026
+
+## Roll NO: 212225230072
+
 ## AIM
 To write a python program for simulating ARP protocols using TCP.
+
 ## ALGORITHM:
+1.Start the program.
+
+2.Create a table containing IP addresses and corresponding MAC addresses.
+
+3.Display the available IP–MAC address table.
+
+4.Ask the user to enter an IP address.
+
+5.Search for the IP address in the ARP table.
+
+6.If the IP address is found, retrieve the corresponding MAC address.
+
+7.Display the MAC address to the user.
+
+8.If the IP address is not found, display "MAC address not found".
+
+9.For RARP simulation, ask the user to enter a MAC address.
+
+10.Search the MAC address in the table.
+
+11.If found, retrieve the corresponding IP address.
+
+12.Display the IP address.
+
+13.If not found, display "IP address not found".
+
+14.End the ARP/RARP simulation process.
+
+15.Stop the program.
+
 ## Client:
 1. Start the program
 2. Using socket connection is established between client and server.
